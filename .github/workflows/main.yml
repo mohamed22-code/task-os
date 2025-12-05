@@ -9,8 +9,8 @@ jobs:
 
     steps:
 
-      - name: 'Testign Githup action'
-        run: pwd
+      - name: 'print folder'
+        run: ls
 
       - name: 'Test print'
         run: echo Mohamed
