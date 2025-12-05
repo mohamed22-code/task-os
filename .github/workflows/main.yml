@@ -9,10 +9,7 @@ jobs:
 
     steps:
 
-      - name: 'print folder before'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'print folder after'
-        run: ls
+      - name: 'Login to Dockerhup'
+        run: docker login --username mohamednasr22 --password dckr_pat_U0M_6etOi3gA9Nc09r_6QOIf-gw
