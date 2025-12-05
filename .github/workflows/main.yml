@@ -9,8 +9,10 @@ jobs:
 
     steps:
 
-      - name: 'print folder'
+      - name: 'print folder before'
         run: ls
 
-      - name: 'Test print'
-        run: echo Mohamed
+      - uses: actions/checkout@v3
+
+      - name: 'print folder after'
+        run: ls
